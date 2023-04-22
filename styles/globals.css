@@ -88,7 +88,6 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #333;
 }
 
 #mainNav a {
@@ -119,14 +118,6 @@ a {
   padding: 20px;
 }
 
-p,
-h1,
-h2,
-h3 {
-  margin-bottom: 10px;
-  max-width: 1000px;
-}
-
 hr {
   margin: 20px;
 }
@@ -138,6 +129,7 @@ ol {
 ul li,
 ol li {
   margin-left: 20px;
+  color: #000;
 }
 
 #mainNav {
@@ -167,11 +159,4 @@ ol li {
   justify-content: center;
   align-content: center;
   margin-right: 10px;
-}
-
-h1 {
-  font-size: 1.5rem;
-}
-h2 {
-  font-size: 1rem;
 }

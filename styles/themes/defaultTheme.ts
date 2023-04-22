@@ -33,8 +33,10 @@ export const defaultTheme = createTheme({
           style: {
             fontSize: "1rem",
             fontWeight: 300,
-            color: "#fff",
+            color: "#000",
             marginTop: "1em",
+            maxWidth: "1000px",
+            lineHeight: "1.6rem",
           },
         },
       ],
@@ -42,7 +44,7 @@ export const defaultTheme = createTheme({
   },
   palette: {
     primary: {
-      main: "#000000",
+      main: "#ffffff",
     },
     secondary: {
       main: "#ffffff",
