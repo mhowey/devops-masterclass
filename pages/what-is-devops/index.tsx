@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { Typography, List, ListItem } from "@mui/material";
 
 export default function WhatIsDevOpsPage() {
   return (
@@ -64,14 +64,26 @@ export default function WhatIsDevOpsPage() {
       <Typography>
         Waterfall was the approach where everything was done in a very linear
         fashion similar to how you would approach a real estate project
-        <ol>
-          <li>Requirements</li>
-          <li>Design</li>
-          <li>Implementation</li>
-          <li>Testing</li>
-          <li>Deployment</li>
-        </ol>
       </Typography>
+
+      <ul>
+        <li>
+          <Typography variant="body2">Requirements</Typography>
+        </li>
+        <li>
+          <Typography variant="body2">Design</Typography>
+        </li>
+        <li>
+          <Typography variant="body2">Implementation</Typography>
+        </li>
+        <li>
+          <Typography variant="body2">Testing</Typography>
+        </li>
+        <li>
+          <Typography variant="body2">Deployment</Typography>
+        </li>
+      </ul>
+
       <Typography>
         The problem with the waterall approach was that it could be months
         before the product management and stakeholders could see a working
@@ -82,7 +94,7 @@ export default function WhatIsDevOpsPage() {
       <Typography>
         Each step listed above would generate huge amounts of documentation to
         prepare the next step for their effort. The waterfall is very much a
-        "throw it over the wall" approach to communication.
+        &quot;throw it over the wall&quot; approach to communication.
       </Typography>
       <Typography variant="h3">Get the Team Together</Typography>
       <Typography>
@@ -97,11 +109,21 @@ export default function WhatIsDevOpsPage() {
         automation might include:
       </Typography>
       <ul>
-        <li>Unit Tests</li>
-        <li>Integration Tests</li>
-        <li>Package</li>
-        <li>Deployment</li>
-        <li>Monitoring</li>
+        <li>
+          <Typography variant="body2">Unit Tests</Typography>
+        </li>
+        <li>
+          <Typography variant="body2">Integration Tests</Typography>
+        </li>
+        <li>
+          <Typography variant="body2">Package</Typography>
+        </li>
+        <li>
+          <Typography variant="body2">Deployment</Typography>
+        </li>
+        <li>
+          <Typography variant="body2">Monitoring</Typography>
+        </li>
       </ul>
       <Typography variant="h3">Quick Feedback</Typography>
       <Typography>
@@ -112,9 +134,15 @@ export default function WhatIsDevOpsPage() {
       <Typography variant="h2">Summary</Typography>
       <Typography variant="h3">Three keys to great software are:</Typography>
       <ul>
-        <li>Enhanced Communication</li>
-        <li>Automation</li>
-        <li>Quick Feedback</li>
+        <li>
+          <Typography variant="body2">Enhanced Communication</Typography>
+        </li>
+        <li>
+          <Typography variant="body2">Automation</Typography>
+        </li>
+        <li>
+          <Typography variant="body2">Quick Feedback</Typography>
+        </li>
       </ul>
     </div>
   );

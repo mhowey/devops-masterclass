@@ -7,18 +7,19 @@ export default function AgilePage() {
       <hr />
       <Typography variant="h3">Business + Development = One Team!</Typography>
       <Typography>
-        This approach builds software in small iterations called "sprints" that
-        are typically 2 to 4 weeks in length. In order to get fast feedback
-        after each sprint, all of the steps normally done is a linear fashion
-        with the waterfall approach, are accomplished during each sprint.
+        This approach builds software in small iterations called
+        &quot;sprints&quot; that are typically 2 to 4 weeks in length. In order
+        to get fast feedback after each sprint, all of the steps normally done
+        is a linear fashion with the waterfall approach, are accomplished during
+        each sprint.
       </Typography>
       <Typography variant="h3">User Stories</Typography>
       <Typography>
         One user story is started and completed from beginning to end during the
-        agile process. Instead of playing the old proverbial "telephone game"
-        where the messages are jumbled by the end of the line, there is ongoing
-        communication as to product vision and how it compares to the product
-        developed.
+        agile process. Instead of playing the old proverbial &quot;telephone
+        game&quot; where the messages are jumbled by the end of the line, there
+        is ongoing communication as to product vision and how it compares to the
+        product developed.
       </Typography>
       <Typography>
         When performed in smaller increments like this, changes to what was
@@ -49,12 +50,12 @@ export default function AgilePage() {
       </Typography>
       <Typography variant="h3">Re-Usable TypeScript Code</Typography>
       <Typography>
-        Another form of "automation" is the creation of easily re-usable code or
-        other components that are utilized by the team in multiple places. This
-        allows the team to focus on the business logic of the product, and not
-        the "plumbing". Properly designed and implemented TypeScript classes
-        that are well documented and tested can be re-used by the team in
-        multiple situations.
+        Another form of &quot;automation&quot; is the creation of easily
+        re-usable code or other components that are utilized by the team in
+        multiple places. This allows the team to focus on the business logic of
+        the product, and not the &quot;plumbing&quot;. Properly designed and
+        implemented TypeScript classes that are well documented and tested can
+        be re-used by the team in multiple situations.
       </Typography>
       <Typography variant="h3">
         Re-Usable Components / Component Library

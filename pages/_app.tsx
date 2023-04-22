@@ -1,5 +1,5 @@
-import "@root/styles/globals.css";
 import type { AppProps } from "next/app";
+import "@root/styles/globals.css";
 import { useRouter } from "next/router";
 import Navigation from "../components/Navigation";
 import { ThemeProvider, CssBaseline } from "@mui/material";
