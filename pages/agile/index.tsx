@@ -1,8 +1,9 @@
 import Typography from "@mui/material/Typography";
+import ContentWrapper from "@root/components/ContentWrapper";
 
 export default function AgilePage() {
   return (
-    <div>
+    <ContentWrapper>
       <Typography variant="h2">Agile - One Team</Typography>
       <hr />
       <Typography variant="h3">Business + Development = One Team!</Typography>
@@ -79,6 +80,6 @@ export default function AgilePage() {
         where it will be deployed. This also allows the team to deploy to
         multiple environments, such as development, staging, and production.
       </Typography>
-    </div>
+    </ContentWrapper>
   );
 }
