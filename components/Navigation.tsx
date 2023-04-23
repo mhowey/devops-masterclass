@@ -53,6 +53,12 @@ export default function Navigation() {
         <Link href="agile">
           <MenuItem onClick={handleClose}>Agile - One Team</MenuItem>
         </Link>
+        <Link href="agile-automation">
+          <MenuItem onClick={handleClose}>Agile Automation</MenuItem>
+        </Link>
+        <Link href="microservices">
+          <MenuItem onClick={handleClose}>Microservices</MenuItem>
+        </Link>
         <hr />
         <Link href="/">
           <MenuItem onClick={handleClose}>Home</MenuItem>
