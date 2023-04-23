@@ -1,8 +1,9 @@
 import { Typography, List, ListItem } from "@mui/material";
+import ContentWrapper from "@root/components/ContentWrapper";
 
 export default function WhatIsDevOpsPage() {
   return (
-    <div>
+    <ContentWrapper>
       <Typography variant="h2">What is DevOps?</Typography>
       <hr />
       <Typography variant="h3">Amazon Web Services Says:</Typography>
@@ -66,7 +67,7 @@ export default function WhatIsDevOpsPage() {
         fashion similar to how you would approach a real estate project
       </Typography>
 
-      <ul>
+      <ol>
         <li>
           <Typography variant="body2">Requirements</Typography>
         </li>
@@ -82,7 +83,7 @@ export default function WhatIsDevOpsPage() {
         <li>
           <Typography variant="body2">Deployment</Typography>
         </li>
-      </ul>
+      </ol>
 
       <Typography>
         The problem with the waterall approach was that it could be months
@@ -144,6 +145,6 @@ export default function WhatIsDevOpsPage() {
           <Typography variant="body2">Quick Feedback</Typography>
         </li>
       </ul>
-    </div>
+    </ContentWrapper>
   );
 }

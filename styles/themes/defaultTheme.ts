@@ -9,6 +9,7 @@ export const defaultTheme = createTheme({
           style: {
             fontSize: "2.25rem",
             fontWeight: 700,
+            color: "#B5DA68",
           },
         },
         {
@@ -31,12 +32,23 @@ export const defaultTheme = createTheme({
         {
           props: { variant: "body1" },
           style: {
-            fontSize: "1rem",
+            fontSize: "1.25rem",
             fontWeight: 300,
             color: "#000",
             marginTop: "1em",
             maxWidth: "1000px",
             lineHeight: "1.6rem",
+          },
+        },
+        {
+          props: { variant: "body2" },
+          style: {
+            fontSize: "1.1rem",
+            fontWeight: 300,
+            color: "#000",
+            marginTop: "1.2em",
+            maxWidth: "1000px",
+            lineHeight: "10px",
           },
         },
       ],
