@@ -32,7 +32,7 @@ export default function AgileAutomationPage() {
         of the project to find out that we have a problem. This is a key part of
         the agile process.
       </Typography>
-      <Box style={{ marginTop: "20px", border: "1px solid" }}>
+      <Box style={{ marginTop: "20px" }}>
         <Typography variant="h3">Continuous Feedback Diagram</Typography>
         <ContinuousFeedbackDiagram />
       </Box>
